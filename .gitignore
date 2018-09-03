@@ -21,3 +21,6 @@ yarn-debug.log*
 yarn-error.log*
 .idea/modules.xml
 .idea/workspace.xml
+.idea/hello-react.iml
+.idea/misc.xml
+.idea/vcs.xml

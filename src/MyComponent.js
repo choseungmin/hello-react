@@ -3,6 +3,10 @@ import PropTypes from 'prop-types';
 
 class MyComponent extends Component {
 
+    constructor(props) {
+        super(props)
+    };
+
     static defaultProps = {
         name: 'seung min 2'
     };
@@ -24,6 +28,6 @@ MyComponent.defaultProps = {
 MyComponent.propTypes= {
     name: PropTypes.string,
     age: PropTypes.number.isRequird
-}
+};
 
 export default MyComponent;
