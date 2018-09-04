@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import ValidationSample from "./ValidationSample";
 // import MyComponent from './MyComponent'
-import EventPractice from './EventPractice';
+// import EventPractice from './EventPractice';
 
 class App extends Component {
   render() {
@@ -26,7 +27,10 @@ class App extends Component {
 
           {/*<MyComponent/>*/}
 
-          <EventPractice/>
+          {/*<EventPractice/>*/}
+
+          <ValidationSample/>
+
       </div>
     );
   }
