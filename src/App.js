@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import ValidationSample from "./ValidationSample";
-// import MyComponent from './MyComponent'
 // import EventPractice from './EventPractice';
+// import MyComponent from './MyComponent'
+// import ValidationSample from "./ValidationSample";
+import ScrollBox from './ScrollBox';
 
 class App extends Component {
   render() {
@@ -29,7 +30,12 @@ class App extends Component {
 
           {/*<EventPractice/>*/}
 
-          <ValidationSample/>
+          {/*<ValidationSample/>*/}
+
+          <ScrollBox ref={(ref) => this.scrollBox = ref}/>
+          <button onClick={() => this.scrollBox.ScrollToBottom()}>
+              맨 밑으로
+          </button>
 
       </div>
     );
